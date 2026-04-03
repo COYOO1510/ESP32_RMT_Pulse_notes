@@ -3,12 +3,12 @@ Arduino开发ESP32输出脉冲测试，可指定引脚、脉冲频率、脉冲�
 
 ### 介绍
 
-> [!note] 信息
+> [!NOTE] 信息
 > ESP32 的 RMT（Remote Control Transceiver） 是一种高精度脉冲收发外设，最初用于红外遥控，但也可作为通用时序信号发生器。它能按设定的高低电平持续时间自动输出或接收数字脉冲，适合实现红外编码、WS2812驱动、固定数量脉冲输出、同步触发等功能。相比普通 GPIO 翻转，RMT 定时更准、占用 CPU 更少，更适合对脉宽和时序要求较高的场景。
 
 ### 测试
 
-> [!note] 2kHz 测试
+> [!NOTE] 2kHz 测试
 > 频率：2kHz
 > 占空比：24%
 > 脉冲个数：10
@@ -17,7 +17,25 @@ Arduino开发ESP32输出脉冲测试，可指定引脚、脉冲频率、脉冲�
   <img src="/README/TEK00003.PNG" alt="[TEK00003.png![TEK00003.PNG">
 </p>
 
-> [!note] 500kHz 测试
+> [!NOTE] 20kHz 测试
+> 频率：20kHz
+> 占空比：24%
+> 脉冲个数：10
+
+<p align="center">
+  <img src="/README/TEK00001.PNG" alt="[TEK00001.png![TEK00001.PNG">
+</p>
+
+> [!NOTE] 50kHz 测试
+> 频率：50kHz
+> 占空比：24%
+> 脉冲个数：10
+
+<p align="center">
+  <img src="/README/TEK00000.PNG" alt="[TEK00000.png![TEK00000.PNG">
+</p>
+
+> [!NOTE] 500kHz 测试
 > 频率：500kHz
 > 占空比：20%
 > 脉冲个数：5
